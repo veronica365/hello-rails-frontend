@@ -1,8 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
-import logger from "redux-logger";
-import greetingReducer from "./redux/greetingSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import logger from 'redux-logger';
+import greetingReducer from './redux/greetingSlice';
 
-const weAreNotLive = process.env.NODE_ENV !== "production";
+const weAreNotLive = process.env.NODE_ENV !== 'production';
 const store = configureStore({
   reducer: {
     greetings: greetingReducer,

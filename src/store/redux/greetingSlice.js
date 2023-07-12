@@ -1,17 +1,17 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { get } from "../api";
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { get } from '../api';
 
-export const getData = createAsyncThunk("get", async (_, thunkAPI) => {
+export const getData = createAsyncThunk('get', async (_, thunkAPI) => {
   try {
-    const data = await get("/greeting.json");
+    const data = await get('/greeting');
     return data.data;
   } catch (error) {
-    return thunkAPI.rejectWithValue("Something went wrong");
+    return thunkAPI.rejectWithValue('Something went wrong');
   }
 });
 
 const greetingSlice = createSlice({
-  name: "greetings",
+  name: 'greetings',
   initialState: {
     error: null,
     greetings: [],

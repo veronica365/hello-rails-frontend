@@ -1,8 +1,10 @@
-import React from "react";
-import { Provider } from "react-redux";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Greeting from "./Greeting";
-import store from "./store";
+import React from 'react';
+import { Provider } from 'react-redux';
+import {
+  BrowserRouter, Routes, Route, Navigate,
+} from 'react-router-dom';
+import Greeting from './Greeting';
+import store from './store';
 
 export default function App() {
   return (

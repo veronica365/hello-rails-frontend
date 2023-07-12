@@ -1,28 +1,126 @@
-# hello-rails-frontend
+<div align="center">
+  <h3><b>Hello rails frontend</b></h3>
+
+</div>
+
+## 📗Table of Contents
+
+- [📖 Hello rails frontend](#-to-do-list-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [📝 License ](#-license-)
+
+# 📖 Hello rails frontend<a name="about-project"></a>
 Demonstrate that by now you've used many different gems with Rails and this exercise will have you connect previous knowledge with new knowledge as you get a chance to use Webpack with jsbundling-rails gem.
 
-# Getting Started with Create React App
+## 🚀 Backend Repo <a name="react-repo"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [Rails API link](https://github.com/veronica365/hello-rails-backend)
 
-## Available Scripts
+## 🛠 Built With <a name="built-with"></a>
 
-In the project directory, you can run:
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm start`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>Javascript</li>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Redux toolkit</li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **Make simple calculations**
+- **Read a random math-related quote**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- A [browser](https://www.google.com/search?q=what+is+a+browser&oq=what+is+a+browser&aqs=chrome..69i57.2748j0j1&sourceid=chrome&ie=UTF-8) of your choice
+- That you have set up Git on you desired computer
+- [NODEJS 16.10](https://nodejs.org/en) or higher
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd your-desired-folder
+  git clone git@github.com:veronica365/hello-rails-frontend.git
+  open the repo folder `hello-rails-frontend`
+```
+
+### Install
+
+Install this project dependencies with:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Run tests
+
+To run tests to check the lint errors, run the following command:
+
+```sh
+  npx eslint . --fix
+```
+
+To run unit tests, run the following command:
+
+```sh
+  npm test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Deployment
+
+You can deploy this project using:
+
+```sh
+  npm run build
+
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -32,42 +130,45 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 👥 Authors <a name="authors"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **William Sserubiri**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- GitHub: [William](https://github.com/verocnica365)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/william-sserubiri-veronica/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+## 🔭 Future Features <a name="future-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] Add more tests and improve the application CSS styles
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+## 🤝 Contributing <a name="contributing"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/veronica365/hello-rails-frontend/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+## ⭐️ Show your support <a name="support"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you like this project...
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-### Deployment
+I would like to thank, the Microverse program for giving me this opportunity to learn and build this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top"></a>)</p>
 
-### `npm run build` fails to minify
+## 📝 License <a name="license"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENCE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
